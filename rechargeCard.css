@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 65vh;
+    background: rgb(210, 224, 206);
+}
+.peru{
+    width: 100%;
+    height: 60vh;
+    padding-left: 9rem;
+}
+.show{
+    border-radius: 20px;
+    color: green;
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+    width: 70%;
+    padding: .3rem 0;
+    letter-spacing: 5px;
+    box-shadow: 1px -3px 27px grey;
+}
+.container{
+    border-radius: 20px;
+    width: 70%;
+    box-shadow: 2px 4px 13px rgb(67, 120, 13);
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-around;
+}
+.form{
+    width: 40%;
+    display: block;
+    padding: 10px;
+    box-shadow: 2px 3px 11px grey;
+}
+select{
+    border: none;
+    border-radius: 9px;
+    width: 100%;
+    padding: .2rem;
+}
+option{
+    color: lawngreen;
+}
+h5{
+    font-size: 20px;
+    color: brown;
+    margin: 15px 0 5px 5px;
+}
+#serial{
+    border-radius: 18px;
+    width: 70%;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    color: white;
+    background: rgb(62, 80, 45);
+    padding: .5rem 0 .5rem 2rem;
+    font-size: 17px;
+}
+.pinBtn{
+    padding: .5rem;
+    box-shadow: 2px 2px 2px green;
+    margin: 0 0 3px 30px;
+    border: none;
+    color: green;
+    font-weight: 700;
+}
+.pinbtn{
+    border: none;
+    padding: .5rem;
+    margin: 0 0 3px 30px;
+    color: red;
+    font-weight: 700;
+    box-shadow: 2px 4px 4px brown;
+}
+.pin{
+    width: 40%;
+    box-shadow: 2px 4px 14px lawngreen;
+    padding-left: 1rem;
+    height: 200px;
+    margin: 40px 0 0 0;
+    border-radius: 40px;
+}
+.pin p{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: brown;
+}
+.pin input{
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    /* height: 40px; */
+    width: 80%;
+    box-shadow: 1px 1px 4px black;
+}
+#loadbtn{
+    border: none;
+    border-radius: 5px;
+    padding: .6rem;
+    min-width: 60%;
+    display: block;
+    margin: 20px 0 0 20px;
+    box-shadow: 2px 3px 1px lawngreen;
+    
+}
+table{
+    border: 5px solid green;
+    margin: 30px 0 0 0;
+    width: 100%;
+}
+th{
+    border: 1px solid green;
+    padding: .5rem;
+}
+td{
+    border: 1px solid brown;
+    text-align: center;
+}
